@@ -52,6 +52,22 @@ More images of synthesized views are under ./results/interpolation and ./results
 I generated a video that connects frames ranging from -0.3 to 1.3 with a step of 0.1. This simulates a motion of viewing the scene from left to right. 
 
 
+https://github.com/user-attachments/assets/899648f2-3df2-4fe3-a478-32a19a2f9288
+
+
+
+https://github.com/user-attachments/assets/9801ff43-f1e0-48fa-8a3e-422d9898d47c
+
+
+
+https://github.com/user-attachments/assets/9bb9a2c2-701d-42f3-9b04-d0cd290772a3
+
+
+
+https://github.com/user-attachments/assets/7a20ca66-fae7-433d-aeb1-84fad4687152
+
+
+
 
 ## Limitations
 Although the median blur helped smooth out the irregular noises, there still exists a lot of horizontal streaks in both the interpolation and extrapolation images. I account for the depth of the foreground and the background using the z-buffer, but a more sophisticated approach to distinguish the front and back could help with the streaks. Also, a different interpolation to select the color for the holes could help. Specifically for extrapolation, since we don't have the information outside the two views, it is difficult to accurately create the new views. Moreover, diagonal streaks were created on parts of the image with a solid color like the wall. I was able to reduce the intensity of the artifact by doing a 2x2 bilinear splatting instead of a single pixel splatting, but there are still visible diagonal lines. (This can be clearly seen in the playroom image)
