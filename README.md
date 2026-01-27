@@ -52,21 +52,19 @@ More images of synthesized views are under ./results/interpolation and ./results
 I generated a video that connects frames ranging from -0.3 to 1.3 with a step of 0.1. This simulates a motion of viewing the scene from left to right. 
 
 
-https://github.com/user-attachments/assets/899648f2-3df2-4fe3-a478-32a19a2f9288
+
+https://github.com/user-attachments/assets/db952844-1c60-4dba-ae83-4289443ff3b7
 
 
 
-https://github.com/user-attachments/assets/9801ff43-f1e0-48fa-8a3e-422d9898d47c
+https://github.com/user-attachments/assets/f768b9cc-4444-44c5-af2f-fde87e59cf9b
 
 
 
-https://github.com/user-attachments/assets/9bb9a2c2-701d-42f3-9b04-d0cd290772a3
+https://github.com/user-attachments/assets/8064724a-3341-4b89-a621-927c7763987d
 
 
-
-https://github.com/user-attachments/assets/7a20ca66-fae7-433d-aeb1-84fad4687152
-
-
+https://github.com/user-attachments/assets/ca241751-d401-4dd5-88f6-f8420aa41450
 
 
 ## Limitations
